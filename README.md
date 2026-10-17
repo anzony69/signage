@@ -3,6 +3,8 @@
 **Versión:** 3.0  
 **Fecha:** 16/10/2026
 
+<img width="1450" height="605" alt="image" src="https://github.com/user-attachments/assets/2abb7795-d5b7-4458-a093-30f5f3a3f619" />
+
 ## 1. Objetivo
 
 Esta guía explica cómo instalar, configurar, probar y respaldar SIGNAGE en un servidor con **Debian 13 (Trixie)**. La instalación se centra en Debian y no depende de una plataforma de virtualización concreta.
@@ -1328,7 +1330,3 @@ refreshTimer = setInterval(loadContent, 5 * 60 * 1000);
 - El visor vuelve a comprobar el contenido cada cinco minutos. En el código actual, si el nombre del archivo no cambia, `lastContent` evita volver a renderizarlo. Por tanto, sustituir un archivo por otro con el mismo nombre no garantiza que se vuelva a mostrar durante esa sesión.
 - El código PHP de la API no se ha incluido en este anexo porque en esta entrega se han facilitado el catálogo y el visor, pero no el contenido actual de `api/contenido.php`. Para una restauración completa, conserva también ese archivo funcional.
 
-
-
-
-<img width="1450" height="605" alt="image" src="https://github.com/user-attachments/assets/2abb7795-d5b7-4458-a093-30f5f3a3f619" />
