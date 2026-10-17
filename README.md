@@ -1327,3 +1327,8 @@ refreshTimer = setInterval(loadContent, 5 * 60 * 1000);
 - El contenido se sirve desde las carpetas de `/srv/signage-content/` mediante la configuración de Apache.
 - El visor vuelve a comprobar el contenido cada cinco minutos. En el código actual, si el nombre del archivo no cambia, `lastContent` evita volver a renderizarlo. Por tanto, sustituir un archivo por otro con el mismo nombre no garantiza que se vuelva a mostrar durante esa sesión.
 - El código PHP de la API no se ha incluido en este anexo porque en esta entrega se han facilitado el catálogo y el visor, pero no el contenido actual de `api/contenido.php`. Para una restauración completa, conserva también ese archivo funcional.
+
+
+
+
+<img width="1450" height="605" alt="image" src="https://github.com/user-attachments/assets/2abb7795-d5b7-4458-a093-30f5f3a3f619" />
